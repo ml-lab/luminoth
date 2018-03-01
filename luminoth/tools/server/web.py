@@ -6,7 +6,7 @@ from threading import Thread
 from PIL import Image
 
 from luminoth.utils.config import get_config
-from luminoth.utils.predicting import PredictorNetwork
+from luminoth.utils.predictor_network import PredictorNetwork
 
 
 app = Flask(__name__)
